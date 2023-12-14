@@ -10,3 +10,6 @@ As the topic of this task holds, the first step of this task involved importing 
 ![image](https://github.com/dianeanalyst/Data-Analysis-Using-Power-BI/assets/120665115/cefe127e-060b-4707-bb2b-90c5c00bb814)
 ![image](https://github.com/dianeanalyst/Data-Analysis-Using-Power-BI/assets/120665115/3c0b2447-f73f-4dc0-a3e9-cb25ad212018)
 These datasets were imported raw and unclean and thus required data cleaning techniques. Using the 'Transform Data' menu in this step, I started by capitalizing the column headers across the datasets and assign the appropriate data types to each columns where necessary, removed duplicates and blank cells.
+#
+Moving on with cleaning the datasets, the Date of Birth column in the Employee dataset was noticed to have inconsistencies in the input. This required using the 'Replace Values' menu to change the dividing symbol into one such that it is consistent across the rows. Furthermore, the column had to be formatted to Date seeing that the presence of inconsistencies caused it to be recognised as Text by Power BI. Here, I employed the 'Split Column by Delimiter' option to split the date into three columns; Day, Month and Year. Following this was selecting the split columns and merging them using the 'Merge Columns' option. Doing this automatically cause Power BI to recongnise the new column as a Date column.
+#
